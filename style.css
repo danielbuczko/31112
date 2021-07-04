@@ -1,0 +1,48 @@
+/* Selektor znacznika */
+nav {
+  background-color: aqua;
+  color: rgb(176, 248, 9);
+}
+
+/* Selektor klasy */
+.skill {
+  color: blue;
+}
+
+/* Selektor id */
+
+#first_skill {
+  color: chartreuse;
+  background-color: cornflowerblue;
+}
+
+/* Złożone selektory */
+/* Wspólna reguła dla wszystkich selektorów rozdzielonych przecinkami */
+p,
+h3 {
+  color: rgb(114, 110, 110);
+}
+
+/* Reguła dla bezpośrednich potomków ">" */
+/* dla ażde p bezpośrednio zagnieżdżonego w div */
+div > p {
+  color: violet;
+}
+
+p > a {
+  font-size: 4em;
+  color: darkmagenta;
+}
+
+/* Reguła dla wszystkich h3 zagnieżdżonych w div bez względu na poziom zagnieżdżenia */
+/* Sama spacja, bez żadnych znaków */
+div h3 {
+  background-color: crimson;
+}
+
+/* Bliskie rodzeństwo */
+/* Reguła dla PIERWSZEGO <label> po <form> na tym samym poziomie */
+
+form label {
+  color: darkgreen;
+}
